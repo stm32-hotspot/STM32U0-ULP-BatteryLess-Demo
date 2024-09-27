@@ -1,0 +1,5 @@
+[ProjectFiles]
+HeaderPath=
+[Groups]
+Application/User/Core/=../Core/Src/MB1642DisplayDriver.c;../Core/Src/MB1642DataReader.c;../Core/Src/MB1642ButtonController.cpp
+[Others]

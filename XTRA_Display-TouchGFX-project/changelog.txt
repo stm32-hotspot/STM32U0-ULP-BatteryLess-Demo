@@ -1,0 +1,19 @@
+3.0.3
+- Updated to STM32CubeMX 6.12.0
+- Updated to Firmware Package FW_U0 1.1.0
+
+3.0.2
+- Updated to TouchGFX 4.24.0
+
+3.0.1
+- Fix error in display driver (which could cause tearing)
+
+3.0.0
+First version of TBS
+- STM32CubeMX 6.11.0
+- TouchGFX 4.23.2
+- Firmware Package FW_U0 1.0.0
+- Support for STM32CubeIDE
+- Support for EWARM
+- Support for Keil 6
+- Support for "Run target" in TouchGFX Designer

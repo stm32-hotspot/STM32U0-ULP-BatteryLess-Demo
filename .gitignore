@@ -1,0 +1,50 @@
+# Build artifacts
+*.o
+*.obj
+*.d
+*.map
+*.lst
+*.out
+#*.hex
+*.bin
+
+# Debug files
+*.dep
+*.pdb
+*.ilk
+*.log
+
+# User-specific configuration
+*.user
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IAR specific folders
+settings/node_modules/
+
+# IAR Settings, ignore except the following
+EWARM/*
+EWARM/Backup of*
+!EWARM/*.ewd
+!EWARM/*.ewp
+!EWARM/*.eww
+!EWARM/*.s
+!EWARM/*.icf
+
+# IAR Debug Exe  
+**/Exe/*.sim
+**/Exe/*.out
+
+# IAR Debug Obj  
+**/Obj/*.pbd  
+**/Obj/*.pbd.*  
+**/Obj/*.pbi  
+**/Obj/*.pbi.*
+*.ninja
+*.ninja_log
+*.ninja_deps
+# IAR linker configuration (.xcl)
+*.xcl

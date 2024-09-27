@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_NU6W" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_G6ZJ" Alignment="Center" TypographyId="Title">
+        <Translation Language="GB">STM32U0</Translation>
+      </Text>
+      <Text Id="lux" Alignment="Left" TypographyId="Large">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="lux_id" Alignment="Right" TypographyId="Large">
+        <Translation Language="GB">&lt;lux_value&gt; lux</Translation>
+      </Text>
+      <Text Id="__SingleUse_3IBM" Alignment="Right" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+      <Text Id="temp_id" Alignment="Right" TypographyId="Large">
+        <Translation Language="GB">&lt;temp_value&gt; °C</Translation>
+      </Text>
+      <Text Id="temp" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">0.00</Translation>
+      </Text>
+      <Text Id="__SingleUse_GWBI" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">&lt;&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="11" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WidgetWildcardCharacters="-., 0123456789" WildcardCharacterRanges="0-9" />
+    <Typography Id="Large" Font="verdana.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="-." WildcardCharacterRanges="0-9" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Title" Font="verdanab.ttf" Size="24" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" />
+  </Typographies>
+</TextDatabase>
